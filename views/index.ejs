@@ -1,0 +1,25 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<div id="main">
+    <form action='/result' method='post'>
+        Your Name: <input class="form" type='text' name='name'><br>
+        Dojo Location: 
+        <select class="form" name="location">
+            <option value="mtv">Mountain View</option>
+            <option value="seattle">Seattle</option>
+            <option value="sanjose">San Jose</option>
+            <option value="tokyo">Tokyo</option>
+        </select><br>
+        Favorite Language: 
+        <select class="form" name="language">
+            <option value="html">HTML</option>
+            <option value="swift">Swift</option>
+            <option value="css">CSS</option>
+            <option value="javascript">Javascript</option>
+        </select><br>
+        Comment(optional):<br>
+            <textarea class="form" id="resizable" placeholder="Message" name='comment' rows="5" cols="28" margin-left=5px padding="16"></textarea><br> 
+            <input class="form" type='submit' value='Submit'>
+        </form>
+</div>

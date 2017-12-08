@@ -1,0 +1,10 @@
+<div id="resultBox">
+    <h2>Submitted information:</h2>
+    <% for (var x in users) { %>
+        <h3>Name: <%= users[x].name %></h3>
+        <h4>location: <%= users[x].location %></h4>
+        <h4>language: <%= users[x].language %></h4>
+         <h4>comment: <%= users[x].comment %></h4>
+    <% } %>
+    <a href="/"><h4>Go back</h4></a>
+</div>

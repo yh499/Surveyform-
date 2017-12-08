@@ -1,0 +1,20 @@
+#main {
+    border: 1px solid black;
+    width: 900px; 
+    height: 700px; 
+}
+
+.form {
+    margin: 20px; 
+    font-size: 25px; 
+}
+
+form {
+    padding: 20px; 
+}
+
+#resultBox {
+    border: 1px solid black;
+    width: 900px; 
+    height: 700px; 
+}
